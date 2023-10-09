@@ -58,3 +58,31 @@
 //    `sorry, you are not eligible. You need to wait ${18 - age} years to drive.`,
 //  );
 //}
+
+//Finding maximum and minimum in array.
+//const temperatures = [1, 2, 3, 4, 5, 2, 3, 5, 7];
+//const length = temperatures.length;
+//let biggest = temperatures[0];
+//let smallest = temperatures[0];
+//for (let i = 0; i <= length; i++) {
+//  if (temperatures[i] >= biggest) {
+//    biggest = temperatures[i];
+//  }
+//}
+//for (let i = 0; i <= length; i++) {
+//  if (temperatures[i] <= smallest) {
+//    smallest = temperatures[i];
+//  }
+//}
+//const diffBetweenSmallestBiggest = biggest - smallest;
+//console.log(`Biggest temperature is ${biggest}`);
+//console.log(`Smallest temperature is ${smallest}`);
+//console.log(`Difference is ${diffBetweenSmallestBiggest}`);
+
+//Use of dollar brackets
+//const firstname = "Shuvkant";
+//const job = "student";
+//const birthyear = 2003;
+//const message = `Hello I'm ${firstname} and i am currently
+//a ${job} in 2023. I was born in ${birthyear}.`;
+//console.log(message);
