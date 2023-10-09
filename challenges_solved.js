@@ -48,3 +48,13 @@
 //  console.log("Mark's BMI is higher than John's!");
 //  console.log(`Mark's BMI${MarksBMI} is higher than johnsbmi${JohnBMI}`);
 //}
+
+//This basically checks whether you elligile to drive or not.
+//const age = 19;
+//if (age >= 18) {
+//  console.log("You can drive the car 🚗");
+//} else {
+//  console.log(
+//    `sorry, you are not eligible. You need to wait ${18 - age} years to drive.`,
+//  );
+//}
