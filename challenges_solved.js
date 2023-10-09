@@ -122,7 +122,22 @@
 //§ Data 1: Test for bill values 275, 40 and 430
 // let  bill=400;
 // let tip=(bill >=50 && bill <=300)? tip=0.15*bill: 0.2*bill;
-
 // console.log(`The bill amount was ${bill}
 // Tip amounnt was ${tip}
 // and the total amount =${bill+tip}`);
+
+//Developer Skills and Editor setup
+//Coding Challenge #1
+//Given an array of forecasted maximum temperatures, the thermometer displays a string with the given temperatures. Example: [17, 21, 23] will print "... 17oC in 1 days ... 21oC in 2 days ... 23oC in 3 days ..."
+//Your tasks:
+//1. Createafunction'printForecast'whichtakesinanarray'arr'andlogsa string like the above to the console. Try it with both test datasets.
+//2. Usetheproblem-solvingframework:Understandtheproblemandbreakitup into sub-problems!
+//Test data:
+//§ Data 1: [17, 21, 23]
+//§ Data2:[12,5,-5,0,4]
+const data = [17, 21, 23];
+const length = data.length;
+for (let i = 0; i < length; i++) {
+  const msg = `The temperature was ${data[i]} on ${i + 1} day`;
+  console.log(msg);
+}
