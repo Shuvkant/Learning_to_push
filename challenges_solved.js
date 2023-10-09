@@ -135,9 +135,9 @@
 //Test data:
 //§ Data 1: [17, 21, 23]
 //§ Data2:[12,5,-5,0,4]
-const data = [17, 21, 23];
-const length = data.length;
-for (let i = 0; i < length; i++) {
-  const msg = `The temperature was ${data[i]} on ${i + 1} day`;
-  console.log(msg);
-}
+//const data = [17, 21, 23];
+//const length = data.length;
+//for (let i = 0; i < length; i++) {
+//  const msg = `The temperature was ${data[i]} on ${i + 1} day`;
+//  console.log(msg);
+//}
