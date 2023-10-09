@@ -86,3 +86,43 @@
 //const message = `Hello I'm ${firstname} and i am currently
 //a ${job} in 2023. I was born in ${birthyear}.`;
 //console.log(message);
+
+//Coding Challenge #3
+//There are two gymnastics teams, Dolphins and Koalas. They compete against each other 3 times. The winner with the highest average score wins a trophy!
+//Your tasks:
+//1. Calculatetheaveragescoreforeachteam,usingthetestdatabelow
+//2. Comparetheteam'saveragescorestodeterminethewinnerofthecompetition,
+//and print it to the console. Don't forget that there can be a draw, so test for that
+//as well (draw means they have the same average score)
+//3. Bonus1:Includearequirementforaminimumscoreof100.Withthisrule,a
+//team only wins if it has a higher score than the other team, and the same time a score of at least 100 points. Hint: Use a logical operator to test for minimum score, as well as multiple else-if blocks 😉
+//4. Bonus2:Minimumscorealsoappliestoadraw!Soadrawonlyhappenswhen both teams have the same score and both have a score greater or equal 100 points. Otherwise, no team wins the trophy
+// const dolpAverage=(96+108+89)/3;
+// const koalaAverage=(88+91+110)/3;
+// console.log(dolpAverage, koalaAverage);
+// if(dolpAverage>koalaAverage&& dolpAverage>100){
+//     console.log('dolpa is the winners.');
+// }
+// else if(koalaAverage>dolpAverage && koalaAverage>=100){
+//     console.log('koala are the winners.');
+// }
+// else if(koalaAverage===dolpAverage && koalaAverage>=100 &&dolpAverage>=100 ){
+//     console.log('both are winners🏆.');
+// }
+// else{
+//     console.log('No one wins.');
+// }
+
+//Coding Challenge #4
+//Steven wants to build a very simple tip calculator for whenever he goes eating in a restaurant. In his country, it's usual to tip 15% if the bill value is between 50 and 300. If the value is different, the tip is 20%.
+//Your tasks:
+//1. Calculatethetip,dependingonthebillvalue.Createavariablecalled'tip'for this. It's not allowed to use an if/else statement 😅 (If it's easier for you, you can start with an if/else statement, and then try to convert it to a ternary operator!)
+//2. Printastringtotheconsolecontainingthebillvalue,thetip,andthefinalvalue (bill + tip). Example: “The bill was 275, the tip was 41.25, and the total value 316.25”
+//Test data:
+//§ Data 1: Test for bill values 275, 40 and 430
+// let  bill=400;
+// let tip=(bill >=50 && bill <=300)? tip=0.15*bill: 0.2*bill;
+
+// console.log(`The bill amount was ${bill}
+// Tip amounnt was ${tip}
+// and the total amount =${bill+tip}`);
